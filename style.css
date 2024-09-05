@@ -5,7 +5,6 @@
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border-bottom: 3px solid black
 }
 .navbar a{
     color:rgb(156, 156, 156);
@@ -23,13 +22,54 @@
 }
 body {
     margin: 0px;
+   
+    /*
+    background-color:rgb(255, 222, 161);
+    */
+
+    
     background-image: url(images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 #active{
     color: rgb(255, 255, 255); 
     text-decoration-line: underline;
 }
+.aside div{
+    display: inline-block;
+    background-color: rgb(24, 30, 39);
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    border: 3px solid black;
+    position: fixed;
+    top: 430px;
+}
+.aside a{
+    text-decoration: none;
+    text-align: left;
+    color: rgb(220 220 220);
+    display: block;
+    padding: 10px;
+}
+.aside a:hover{
+    color: rgb(151, 151, 151);
+    text-decoration: underline;
+}
+#asideHeader{
+    color:white;
+    margin: 10px;
+    text-align: center;
+}
+main{
+    font-family:sans-serif;
+}
+/* later voor afbeelding
+#img1{
+    float: left;
+}
+*/
