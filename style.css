@@ -69,7 +69,12 @@ main{
     display: inline-block;
     font-family:sans-serif;
     color: black;
+    background-image: url(images/backgroundtest4.avif);
+   
+    /*
     background-color: rgb(255, 238, 182);
+    */
+
     border: 3px solid black;
     margin-left: 1.5%;
     margin-top: 1.5%;
@@ -78,6 +83,10 @@ main{
 }
 main h1{
     text-align: center;
+    margin-bottom: 30px;
+}
+main article{
+    margin-left: 20px;
 }
 .navfirst{
     margin-left: 10px;
@@ -91,7 +100,8 @@ footer{
     margin-bottom: 0%;
     border: 3px solid black;
     background-color: rgb(24, 30, 39);
-    color:white
+    color:white;
+    font-family: sans-serif;
 }
 
 .aside2{
@@ -104,3 +114,9 @@ footer{
 .aside2 a{
     text-align: center;
 }
+#img1{
+    float: right;
+    height: 200px;
+    margin-right: 50px;
+}
+
