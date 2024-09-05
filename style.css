@@ -1,12 +1,15 @@
 
-.navbar ul{
+nav ul{
     background-color: rgb(24, 30, 39);
     list-style-type: none;
     padding: 0px;
-    margin: 0px;
+    margin: 1.5%;
+    margin-bottom: 0%;
+    margin-top: 1%;
     overflow: hidden;
+    border: 3px solid black
 }
-.navbar a{
+nav a{
     color:rgb(156, 156, 156);
     text-decoration: none;
     display: block;
@@ -14,20 +17,14 @@
     text-align: center;
     padding: 15px;
 }
-.navbar a:hover{
+nav a:hover{
     color: rgb(255, 255, 255);
 }
-.navbar li{
+nav li{
     float: left;
 }
 body {
     margin: 0px;
-   
-    /*
-    background-color:rgb(255, 222, 161);
-    */
-
-    
     background-image: url(images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -39,21 +36,26 @@ body {
     color: rgb(255, 255, 255); 
     text-decoration-line: underline;
 }
-.aside div{
-    display:inline-block;
-    background-color: rgb(24, 30, 39);
+aside{
+    float: left;
     font-family: sans-serif;
+    background-color: rgb(24, 30, 39);
     border: 3px solid black;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
 }
-.aside a{
+aside ul{
+    list-style-type: none;
+    padding: 0px;
+}
+aside a{
+    padding: 15px;
+    display: block;
     text-decoration: none;
     text-align: left;
     color: rgb(220 220 220);
-    padding: 6px;
 }
-.aside a:hover{
+aside a:hover{
     color: rgb(151, 151, 151);
     text-decoration: underline;
 }
@@ -62,13 +64,20 @@ body {
     margin: 10px;
     text-align: center;
 }
-.main{
+main{
+    float: left;
     font-family:sans-serif;
     color: black;
-    background-color: white;
+    background-color: rgb(255, 238, 182);
     border: 3px solid black;
-
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    width: 82.95%;
+    height: 700px;
+}
+main h1{
+    text-align: center;
 }
 .navfirst{
-    margin-left: 30px;
+    margin-left: 10px;
 }
