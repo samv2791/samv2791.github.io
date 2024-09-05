@@ -40,21 +40,18 @@ body {
     text-decoration-line: underline;
 }
 .aside div{
-    display: inline-block;
+    display:inline-block;
     background-color: rgb(24, 30, 39);
-    margin-top: 25px;
-    margin-left: 25px;
     font-family: sans-serif;
     border: 3px solid black;
-    position: fixed;
-    top: 430px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .aside a{
     text-decoration: none;
     text-align: left;
     color: rgb(220 220 220);
-    display: block;
-    padding: 10px;
+    padding: 6px;
 }
 .aside a:hover{
     color: rgb(151, 151, 151);
@@ -65,11 +62,13 @@ body {
     margin: 10px;
     text-align: center;
 }
-main{
+.main{
     font-family:sans-serif;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+
 }
-/* later voor afbeelding
-#img1{
-    float: left;
+.navfirst{
+    margin-left: 30px;
 }
-*/
