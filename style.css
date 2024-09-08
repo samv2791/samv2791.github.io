@@ -25,7 +25,7 @@ nav li{
 }
 body {
     margin: 0px;
-    background-image: url(images/background.jpg);
+    background-image: url(images/backgroundBody.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -69,7 +69,7 @@ main{
     display: inline-block;
     font-family:sans-serif;
     color: black;
-    background-image: url(images/backgroundtest4.avif);
+    background-image: url(images/backgroundMain.avif);
    
     /*
     background-color: rgb(255, 238, 182);
@@ -80,6 +80,7 @@ main{
     margin-top: 1.5%;
     width: 82.95%;
     height: 700px;
+    overflow: auto;
 }
 main h1{
     text-align: center;
@@ -114,9 +115,15 @@ footer{
 .aside2 a{
     text-align: center;
 }
-#img1{
+#indexIMG1{
     float: right;
     height: 200px;
-    margin-right: 50px;
+    margin-right: 65px;
+}
+#indexIMG2{
+    float: right;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 0px;
 }
 
