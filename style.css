@@ -42,7 +42,7 @@ aside{
     background-color: rgb(24, 30, 39);
     border: 3px solid black;
     margin-left: 1.5%;
-    margin-top: 2.65%;
+    margin-top: 1.55%;
     width: 12.1%;
 }
 aside ul{
@@ -122,11 +122,11 @@ table{
 }
 table th{
     border: solid 3px black;
-    background-color:rgb(169, 192, 217);
+    background-color:rgb(255, 214, 138);
 }
 table td{
     border: solid 2px black;
-    background-color:rgb(201, 220, 255);
+    background-color:rgb(255, 227, 185);
     height: 23px;
 }
 #quarter{
@@ -157,4 +157,73 @@ table td{
 }
 .aside2{
     margin-top: 1.5%;
+}
+#myprofileIMG1{
+    float: right;
+    width: 490px;
+    height: 680px;
+    border: solid 3px black;
+    margin-right: 1.25%;
+    margin-top: 1.25%;
+}
+#myprofileIMG2{
+    width: 8.5%;
+    border: solid 3px black;
+    margin-left: 1.5%;
+    height: 286px;
+    display: inline-block;
+}
+#myprofileIMG3{
+    width: 8.5%;
+    border: solid 3px black;
+    height: 235px;
+    display: inline-block;
+}
+#myprofileIMG4{
+    width: 8.5%;
+    border: solid 3px black;
+    display: inline-block;
+}
+#myprofileIMG5{
+    width: 8.5%;
+    border: solid 3px black;
+    display: inline-block;
+}
+#myprofileIMG6{
+    width: 8.5%;
+    border: solid 3px black;
+    display: inline-block;
+}
+#myprofileIMG7{
+    width: 8.5%;
+    border: solid 3px black;
+    height: 235px;
+    display: inline-block;
+}
+#myprofileIMG9{
+    width: 8.5%;
+    border: solid 3px black;
+    height: 286px;
+    display: inline-block;
+}
+.myprofileBody{
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+#myprofileList{
+    display: inline-block;
+    margin: 0px;
+    padding-right: 5px;
+    text-align: left;
+}
+#test123{
+    display: inline;
+}
+#textHome{
+    margin-left: 25px;
+    margin-top: 40px;
+    max-width: 95%;
+    padding-bottom: 0px;
 }
