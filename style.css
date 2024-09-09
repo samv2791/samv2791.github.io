@@ -109,7 +109,7 @@ footer{
     margin-top: 20.5%;
     margin-left: -12.25%;
     height: auto;
-    width: 12%;
+    width: 227px;
     text-align: center;
 }
 .aside2 a{
@@ -126,4 +126,46 @@ footer{
     margin-right: 20px;
     margin-top: 0px;
 }
-
+table{
+    border: solid 3px black;
+    border-collapse: collapse;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    max-width: 60%;
+}
+table th{
+    border: solid 3px black;
+    background-color:rgb(169, 192, 217);
+}
+table td{
+    border: solid 2px black;
+    background-color:rgb(201, 220, 255);
+    height: 23px;
+}
+#quarter{
+    text-align: center;
+    width: 5%;
+}
+#ecs{
+    text-align: center;
+    width: 7.5%;
+}
+#grade{
+    text-align: center;
+    width: 7.5%;
+}
+#course{
+    padding-left: 0.75%;
+}
+#assessment{
+    padding-left: 0.75%;
+}
+#weight{
+    text-align: center;
+    width: 6%;
+}
+#finalgrade{
+    text-align: center;
+    width: 7.5%;
+}
