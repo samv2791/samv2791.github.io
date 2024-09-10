@@ -103,13 +103,16 @@ footer{
 }
 #indexIMG1{
     float: right;
-    height: 200px;
-    margin-right: 65px;
+    height: 240px;
+    width: 210px;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 #indexIMG2{
     float: right;
-    height: 200px;
-    margin-right: 20px;
+    height: 260px;
+    width: 290px;
+    margin-right: 10px;
     margin-top: 0px;
 }
 table{
@@ -219,11 +222,16 @@ table td{
     padding-right: 5px;
     text-align: left;
 }
-#textHome{
+.textHome{
     margin-left: 25px;
+    margin-right: 20%;
+}
+.textHome h3{
+    margin-bottom: 0px;
     margin-top: 40px;
-    max-width: 95%;
-    padding-bottom: 0px;
+}
+.textHome p{
+    margin-top: 10px;
 }
 #myprofileBody2{
     text-align: center;
@@ -248,9 +256,6 @@ table td{
     border: solid 1px black;
     margin-left: -20px;
 }
-.blogMain{
-
-}
 .blogMain h3{
     margin-top: 35px;
 }
@@ -264,4 +269,9 @@ table td{
     border: solid 2px black;
     margin-right: 20px;
     margin-left: 10px;
+    margin-top: 0px;
+}
+#testerino{
+    background-color: rgba(255, 190, 129, 0.301);
+    margin-left: 0px;
 }
