@@ -165,50 +165,51 @@ table td{
     border: solid 3px black;
     margin-right: 1.25%;
     margin-top: 1.25%;
+    margin-left: 2%;
 }
 #myprofileIMG2{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     margin-left: 1.5%;
     height: 286px;
-    display: inline-block;
+    display: inline;
 }
 #myprofileIMG3{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     height: 235px;
     display: inline-block;
 }
 #myprofileIMG4{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     display: inline-block;
 }
 #myprofileIMG5{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     display: inline-block;
 }
 #myprofileIMG6{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     display: inline-block;
 }
 #myprofileIMG7{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     height: 235px;
     display: inline-block;
 }
 #myprofileIMG9{
-    width: 8.5%;
+    width: 8.4%;
     border: solid 3px black;
     height: 286px;
     display: inline-block;
 }
 .myprofileBody{
     margin-top: 0px;
-    margin-left: 25px;
+    margin-left: 2%;
     margin-right: 25px;
     text-align: center;
 }
@@ -218,12 +219,49 @@ table td{
     padding-right: 5px;
     text-align: left;
 }
-#test123{
-    display: inline;
-}
 #textHome{
     margin-left: 25px;
     margin-top: 40px;
     max-width: 95%;
     padding-bottom: 0px;
+}
+#myprofileBody2{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.faq{
+    border: solid 3px black;
+    background-color: rgb(219, 219, 219);
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    margin-top: 2%;
+}
+.faq summary{
+    background-color: rgb(205, 205, 205);
+}
+.faq hr{
+    border: solid 1px black;
+}
+.blogMain hr{
+    border: solid 1px black;
+    margin-left: -20px;
+}
+.blogMain{
+
+}
+.blogMain h3{
+    margin-top: 35px;
+}
+.blogMain p{
+    margin-bottom: 0px;
+}
+#blogIMG1{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    margin-right: 20px;
+    margin-left: 10px;
 }
