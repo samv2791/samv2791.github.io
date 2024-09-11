@@ -168,51 +168,65 @@ table td{
     border: solid 3px black;
     margin-right: 1.25%;
     margin-top: 1.25%;
-    margin-left: 2%;
+    margin-left: 2.8%;
 }
 #myprofileIMG2{
     width: 8.4%;
     border: solid 3px black;
     margin-left: 1.5%;
     height: 286px;
-    display: inline;
+    float: left;
+    margin-right: 0.33%;
 }
 #myprofileIMG3{
     width: 8.4%;
     border: solid 3px black;
     height: 235px;
-    display: inline-block;
+    float: left;
+    margin-top: 51px;
+    margin-right: 0.33%;
 }
 #myprofileIMG4{
     width: 8.4%;
+    height: 200px;
     border: solid 3px black;
-    display: inline-block;
+    float: left;
+    margin-top: 86px;
+    margin-right: 0.33%;
 }
 #myprofileIMG5{
     width: 8.4%;
+    height: 200px;
     border: solid 3px black;
-    display: inline-block;
+    float: left;
+    margin-top: 86px;
+    margin-right: 0.33%;
 }
 #myprofileIMG6{
     width: 8.4%;
+    height: 200px;
     border: solid 3px black;
-    display: inline-block;
+    float: left;
+    margin-top: 86px;
+    margin-right: 0.33%;
 }
 #myprofileIMG7{
     width: 8.4%;
     border: solid 3px black;
     height: 235px;
-    display: inline-block;
+    float: left;
+    margin-top: 51px;
+    margin-right: 0.33%;
 }
 #myprofileIMG9{
-    width: 8.4%;
+    width: 8.3%;
     border: solid 3px black;
     height: 286px;
-    display: inline-block;
+        float: left;
 }
 .myprofileBody{
     margin-top: 0px;
-    margin-left: 2%;
+    margin-left: 1.5%;
     margin-right: 25px;
     text-align: center;
 }
@@ -221,6 +235,7 @@ table td{
     margin: 0px;
     padding-right: 5px;
     text-align: left;
+    margin-bottom: 10px;
 }
 .textHome{
     margin-left: 25px;
@@ -232,25 +247,6 @@ table td{
 }
 .textHome p{
     margin-top: 10px;
-}
-#myprofileBody2{
-    text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.faq{
-    border: solid 3px black;
-    background-color: rgb(219, 219, 219);
-    margin-left: 2%;
-    margin-right: 2%;
-    text-align: center;
-    margin-top: 2%;
-}
-.faq summary{
-    background-color: rgb(205, 205, 205);
-}
-.faq hr{
-    border: solid 1px black;
 }
 .blogMain hr{
     border: solid 1px black;
@@ -274,4 +270,46 @@ table td{
 #testerino{
     background-color: rgba(255, 190, 129, 0.301);
     margin-left: 0px;
+}
+.faq{
+    border: solid 3px black;
+    border-bottom: solid 3px black;
+    background-color: rgb(219, 219, 219);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-size: 18.72px;
+}
+.faq summary{
+    background-color: rgb(205, 205, 205);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7.5px;
+}
+.faq ol{
+    border-top: 2px solid black;
+    margin-top: 0px;
+}
+.faq li{
+    margin-top: 13px;
+}
+.profileLowertext p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#profileWorkaround{
+    margin-bottom: -80px;
+}
+.myprofileBody h1{
+    margin-bottom: 35px;
+    font-size: 40px;
+}
+.myprofileBody h3{
+    margin-bottom: 10px;
+}
+.myprofileBody p{
+    margin-top: 0px;
+}
+#myprofileToptext{
+    margin-bottom: 10px;
 }
