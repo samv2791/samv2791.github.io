@@ -11,47 +11,118 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar">
         <ul>
-            <li><a class="navfirst" href="index.html"><big>Home</big></a></li>
-            <li><a href="profile.html"><big>Profile</big></a></li>
-            <li><a id="active" href="dashboard.html"><big>Dashboard</big></a></li>
-            <li><a href="blog.html"><big>Blog</big></a></li>
-            <li><a href="faq.html"><big>FAQ</big></a></li>
+            <li><a class="navfirst" href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a id="active" href="dashboard.html">Dashboard</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
         </ul>
     </nav>
     <aside>
         <div>
             <ul>
                 <h3 id="asideHeader">Important Links</h3><hr>
-                <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf">CE Regulations</a></li>
-                <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">Implementation Regulations</a></li>
-                <li><a href="https://learn.hz.nl/course/view.php?id=23602">PCO Learn Environment</a></li>
-                <li><a href="https://github.com/HZ-HBO-ICT">HBO-ICT Github</a></li>
-                <li><a href="https://hz.osiris-student.nl/voortgang">Study Progress</a></li>
+                <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf" target="_blank">CE Regulations</a></li>
+                <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank">Implementation Regulations</a></li>
+                <li><a href="https://learn.hz.nl/course/view.php?id=23602" target="_blank">PCO Learn Environment</a></li>
+                <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">HBO-ICT Github</a></li>
+                <li><a href="https://hz.osiris-student.nl/voortgang" target="_blank">Study Progress</a></li>
             </ul>
         </div>
     </aside>
     
 
     <main>
-        <div>
-            <article>
-                <h1>Personal Dashboard</h1>
+        <div class="container3">
+        <div class="container2">
+
+            <article class="dashboardSummary">
+                <h3>Current progression summary</h3>
+                <p>Total credits: 60</p>
+                <p>Credits obtained: 0</p>
+                <p>Credits lost: 0</p>
+                <p>Possible credits: 60</p>
+                <p>NBSA: false</p>
             </article>
-            <article>
-                <table>
+            <table class="quarterOther">
+                <tr>
+                    <th colspan="6" id="tableTop">Other</th>
+                </tr>
+                <tr>
+                    <th id="courseOther">Course</th>
+                    <th id="ecs">ECs</th>
+                    <th id="assessmentOther">Assessment</th>
+                    <th id="weight">Weight</th>
+                    <th id="grade">Grade</th>
+                    <th id="finalgrade">Final grade</th>
+                </tr>
+                <tr>
+                    <td id="courseOther">Business Consultancy basics</td>
+                    <td id="ecs">2.5</td>
+                    <td id="assessmentOther">Video assignment</td>
+                    <td id="weight">100%</td>
+                    <td id="grade">-</td>
+                    <td id="finalgrade">-</td>
+                </tr>
+                <tr>
+                    <td id="courseOther">Personal Professional Development Exploration</td>
+                    <td id="ecs">12.5</td>
+                    <td id="assessmentOther">Interview</td>
+                    <td id="weight">100%</td>
+                    <td id="grade">-</td>
+                    <td id="finalgrade">-</td>
+                </tr>
+                <tr>
+                    <td id="courseOther">IT Personality- projectweek 1</td>
+                    <td id="ecs">1.25</td>
+                    <td id="assessmentOther">Portfolio</td>
+                    <td id="weight">100%</td>
+                    <td id="grade">-</td>
+                    <td id="finalgrade">-</td>
+                </tr>
+                <tr>
+                    <td id="courseOther">IT Personality International week</td>
+                    <td id="ecs">1.25</td>
+                    <td id="assessmentOther">Portfolio</td>
+                    <td id="weight">100%</td>
+                    <td id="grade">-</td>
+                    <td id="finalgrade">-</td>
+                </tr>
+                <tr>
+                    <td id="courseOther">IT Personality 1</td>
+                    <td id="ecs">1.25</td>
+                    <td id="assessmentOther">Portfolio</td>
+                    <td id="weight">100%</td>
+                    <td id="grade">-</td>
+                    <td id="finalgrade">-</td>
+                </tr>
+                <tr>
+                    <td id="courseOther">IT Personality 2</td>
+                    <td id="ecs">1.25</td>
+                    <td id="assessmentOther">Portfolio</td>
+                    <td id="weight">100%</td>
+                    <td id="grade">-</td>
+                    <td id="finalgrade">-</td>
+                </tr>
+            </table>
+        </div>
+
+            <div class="container">
+                <table class="quarterOne">
                     <tr>
-                        <th>Quarter</th>
-                        <th>Course</th>
-                        <th>ECs</th>
-                        <th>Assessment</th>
-                        <th>Weight</th>
-                        <th>Grade</th>
-                        <th>Final grade</th>
+                        <th colspan="6" id="tableTop">Quarter One</th>
                     </tr>
                     <tr>
-                        <td rowspan="3" id="quarter">1</td>
+                        <th id="course">Course</th>
+                        <th id="ecs">ECs</th>
+                        <th id="assessment">Assessment</th>
+                        <th id="weight">Weight</th>
+                        <th id="grade">Grade</th>
+                        <th id="finalgrade">Final grade</th>
+                    </tr>
+                    <tr>
                         <td id="course">Program- & Career Orientation</td>
                         <td id="ecs">2.5</td>
                         <td id="assessment">Website assessment</td>
@@ -60,7 +131,6 @@
                         <td id="finalgrade">-</td>
                     </tr>
                     <tr>
-                        <!-- quarter 1-->
                         <td id="course">Computer Science Basics</td>
                         <td id="ecs">5</td>
                         <td id="assessment">Written exam</td>
@@ -69,7 +139,6 @@
                         <td id="finalgrade">-</td>
                     </tr>
                     <tr>
-                        <!-- quarter 1-->
                         <td id="course">Programming Basics</td>
                         <td id="ecs">5</td>
                         <td id="assessment">Case study exam</td>
@@ -77,11 +146,24 @@
                         <td id="grade">-</td>
                         <td id="finalgrade">-</td>
                     </tr>
+                </table>
+
+                <table class="quarterTwo">
                     <tr>
-                        <td rowspan="2" id="quarter">2</td>
+                        <th colspan="6" id="tableTop">Quarter Two</th>
+                    </tr>
+                    <tr>
+                        <th id="course">Course</th>
+                        <th id="ecs">ECs</th>
+                        <th id="assessmentQ2">Assessment</th>
+                        <th id="weight">Weight</th>
+                        <th id="grade">Grade</th>
+                        <th id="finalgrade">Final grade</th>
+                    </tr>
+                    <tr>
                         <td rowspan="2" id="course">Object-Oriented Programming</td>
                         <td rowspan="2" id="ecs">10</td>
-                        <td id="assessment">Individual presentation</td>
+                        <td id="assessmentQ2">Individual presentation</td>
                         <td id="weight">50%</td>
                         <td id="grade">-</td>
                         <td id="finalgrade">-</td>
@@ -90,129 +172,103 @@
                         <!-- quarter 2-->
                         <!-- Object-Oriented Programming</td> -->
                         <!-- 10 ECs -->
-                        <td id="assessment">Written knowledge test</td>
+                        <td id="assessmentQ2">Written knowledge test</td>
                         <td id="weight">50%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="4" id="quarter">3</td>
-                        <td rowspan="4" id="course">Framework project 1</td>
-                        <td rowspan="4" id="ecs">10</td>
-                        <td id="assessment">Case study exam</td>
-                        <td id="weight">50%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <!-- quarter 3-->
-                        <!-- Framework project 1 -->
-                        <!-- 10 ECs -->
-                        <td id="assessment">Database exam</td>
-                        <td id="weight">12.5%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <!-- quarter 3-->
-                        <!-- Framework project 1 -->
-                        <!-- 10 ECs -->
-                        <td id="assessment">Group presentation</td>
-                        <td id="weight">25%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <!-- quarter 3-->
-                        <!-- Framework project 1 -->
-                        <!-- 10 ECs -->
-                        <td id="assessment">Group portfolio</td>
-                        <td id="weight">12.5%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3" id="quarter">4</td>
-                        <td rowspan="3" id="course">Framework project 2</td>
-                        <td rowspan="3" id="ecs">10</td>
-                        <td id="assessment">Final portfolio</td>
-                        <td id="weight">25%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <!-- quarter 4-->
-                        <!-- Framework project 2 -->
-                        <!-- 10 ECs -->
-                        <td id="assessment">Acceptance report</td>
-                        <td id="weight">25%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <!-- quarter 4-->
-                        <!-- Framework project 2 -->
-                        <!-- 10 ECs -->
-                        <td id="assessment">IT Development Portfolio</td>
-                        <td id="weight">50%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td id="quarter">3 - 4</td>
-                        <td id="course">Business IT Consultancy basics</td>
-                        <td id="ecs">2.5</td>
-                        <td id="assessment">Video assignment</td>
-                        <td id="weight">100%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td id="quarter">1 - 4</td>
-                        <td id="course">Personal Professional Development Exploration</td>
-                        <td id="ecs">12.5</td>
-                        <td id="assessment">Criterium focused interview</td>
-                        <td id="weight">100%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td id="quarter">-</td>
-                        <td id="course">IT Personality- projectweek 1</td>
-                        <td id="ecs">1.25</td>
-                        <td id="assessment">Portfolio</td>
-                        <td id="weight">100%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td id="quarter">-</td>
-                        <td id="course">IT Personality International week</td>
-                        <td id="ecs">1.25</td>
-                        <td id="assessment">Portfolio</td>
-                        <td id="weight">100%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td id="quarter">-</td>
-                        <td id="course">IT Personality 1</td>
-                        <td id="ecs">1.25</td>
-                        <td id="assessment">Portfolio</td>
-                        <td id="weight">100%</td>
-                        <td id="grade">-</td>
-                        <td id="finalgrade">-</td>
-                    </tr>
-                    <tr>
-                        <td id="quarter">-</td>
-                        <td id="course">IT Personality 2</td>
-                        <td id="ecs">1.25</td>
-                        <td id="assessment">Portfolio</td>
-                        <td id="weight">100%</td>
                         <td id="grade">-</td>
                         <td id="finalgrade">-</td>
                     </tr>
                 </table>
+
+                <table class="quarterThree">
+                    <tr>
+                        <th colspan="6" id="tableTop">Quarter Three</th>
+                    </tr>
+                    <tr>
+                        <th id="courseQ3">Course</th>
+                        <th id="ecs">ECs</th>
+                        <th id="assessmentQ3">Assessment</th>
+                        <th id="weight">Weight</th>
+                        <th id="grade">Grade</th>
+                        <th id="finalgrade">Final grade</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" id="courseQ3">Framework project 1</td>
+                        <td rowspan="4" id="ecs">10</td>
+                        <td id="assessmentQ3">Case study exam</td>
+                        <td id="weight">50%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                    <tr>
+                        <!-- quarter 3-->
+                        <!-- Framework project 1 -->
+                        <!-- 10 ECs -->
+                        <td id="assessmentQ3">Database exam</td>
+                        <td id="weight">12.5%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                    <tr>
+                        <!-- quarter 3-->
+                        <!-- Framework project 1 -->
+                        <!-- 10 ECs -->
+                        <td id="assessmentQ3">Group presentation</td>
+                        <td id="weight">25%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                    <tr>
+                        <!-- quarter 3-->
+                        <!-- Framework project 1 -->
+                        <!-- 10 ECs -->
+                        <td id="assessmentQ3">Group portfolio</td>
+                        <td id="weight">12.5%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                </table>
+
+                <table class="quarterFour">
+                    <tr>
+                        <th colspan="6" id="tableTop">Quarter Four</th>
+                    </tr>
+                    <tr>
+                        <th id="courseQ4">Course</th>
+                        <th id="ecs">ECs</th>
+                        <th id="assessmentQ4">Assessment</th>
+                        <th id="weight">Weight</th>
+                        <th id="grade">Grade</th>
+                        <th id="finalgrade">Final grade</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" id="courseQ4">Framework project 2</td>
+                        <td rowspan="3" id="ecs">10</td>
+                        <td id="assessmentQ4">Final portfolio</td>
+                        <td id="weight">25%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                    <tr>
+                        <!-- quarter 4-->
+                        <!-- Framework project 2 -->
+                        <!-- 10 ECs -->
+                        <td id="assessmentQ4">Acceptance report</td>
+                        <td id="weight">25%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                    <tr>
+                        <!-- quarter 4-->
+                        <!-- Framework project 2 -->
+                        <!-- 10 ECs -->
+                        <td id="assessmentQ4">Development Portfolio</td>
+                        <td id="weight">50%</td>
+                        <td id="grade">-</td>
+                        <td id="finalgrade">-</td>
+                    </tr>
+                </table>
+            </div>
+
             </article>
         </div>
     </main>
@@ -221,12 +277,12 @@
         <div>
             <ul>
                 <h3 id="asideHeader">Social Links</h3><hr>
-                <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf">Instagram</a></li>
-                <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">LinkedIn</a></li>
-                <li><a href="https://learn.hz.nl/course/view.php?id=23602">Youtube</a></li>
-                <li><a href="https://github.com/HZ-HBO-ICT">Twitter</a></li>
-                <li><a href="https://hz.osiris-student.nl/voortgang">Github</a></li>
-                <li><a href="https://hz.osiris-student.nl/voortgang">Pinterest</a></li>
+                <li><a href="https://www.instagram.com/samvd19980_/" target="_blank">Instagram</a></li>
+                <li><a href="https://linkedin.com/in/sam-verdoorn-625489291" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/@svd6279" target="_blank">Youtube</a></li>
+                <li><a href="https://x.com/rataccount55125" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/samv2791" target="_blank">Github</a></li>
+                <li><a href="https://pinterest.com/samvd12345/" target="_blank">Pinterest</a></li>
             </ul>
         </div>
     </aside>

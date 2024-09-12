@@ -1,33 +1,4 @@
-/* MAIN PAGE LAYOUT */
-body {
-    margin: 0px;
-    background-image: url(images/backgroundBody.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
-}
-main{
-    float: right;
-    font-family:sans-serif;
-    color: black;
-    background-image: url(images/backgroundMain.avif);
-    border: 3px solid black;
-    margin-right: 1.5%;
-    margin-top: 1.5%;
-    width: 82.95%;
-    height: 725px;
-    overflow: auto;
-}
-main h1{
-    text-align: center;
-    margin-bottom: 30px;
-}
-main article{
-    margin-left: 20px;
-}
 
-/* NAVBAR */
 nav ul{
     background-color: rgb(24, 30, 39);
     list-style-type: none;
@@ -52,18 +23,18 @@ nav a:hover{
 nav li{
     float: left;
 }
-.navfirst{
-    margin-left: 10px;
-}
-.navbar{
-    font-size: larger;
+body {
+    margin: 0px;
+    background-image: url(images/backgroundBody.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
 }
 #active{
     color: rgb(255, 255, 255); 
     text-decoration-line: underline;
 }
-
-/* ASIDE 1*/
 aside{
     float: left;
     font-family: sans-serif;
@@ -94,13 +65,29 @@ aside a:hover{
     padding-bottom: 5px;
     text-align: center;
 }
-
-/* ASIDE 2*/
-.aside2{
+/* */
+main{
+    float: right;
+    font-family:sans-serif;
+    color: black;
+    background-image: url(images/backgroundMain.avif);
+    border: 3px solid black;
+    margin-right: 1.5%;
     margin-top: 1.5%;
+    width: 82.95%;
+    height: 725px;
+    overflow: auto;
 }
-
-/* FOOTER */
+main h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+main article{
+    margin-left: 20px;
+}
+.navfirst{
+    margin-left: 10px;
+}
 footer{
     height: 55px;
     width: 96.7%;
@@ -113,8 +100,6 @@ footer{
     color:white;
     font-family: sans-serif;
 }
-
-/* INDEX.HTML */
 #indexIMG1{
     float: right;
     height: 240px;
@@ -129,22 +114,52 @@ footer{
     margin-right: 10px;
     margin-top: 0px;
 }
-.textHome{
-    margin-left: 25px;
+table{
+    border: solid 3px black;
+    border-collapse: collapse;
+    margin-left: 20%;
     margin-right: 20%;
+    margin-top: 3%;
+    max-width: 60%;
 }
-.textHome h3{
-    margin-bottom: 0px;
-    margin-top: 40px;
+table th{
+    border: solid 3px black;
+    background-color:rgb(255, 214, 138);
 }
-.textHome p{
-    margin-top: 10px;
+table td{
+    border: solid 2px black;
+    background-color:rgb(255, 227, 185);
+    height: 23px;
 }
-#titleHome{
-    margin-top: 30px;
+#quarter{
+    text-align: center;
+    width: 5%;
 }
-
-/* PROFILE.HTML */
+#ecs{
+    text-align: center;
+    width: 7.5%;
+}
+#grade{
+    text-align: center;
+    width: 7.5%;
+}
+#course{
+    padding-left: 0.75%;
+}
+#assessment{
+    padding-left: 0.75%;
+}
+#weight{
+    text-align: center;
+    width: 6%;
+}
+#finalgrade{
+    text-align: center;
+    width: 7.5%;
+}
+.aside2{
+    margin-top: 1.5%;
+}
 #myprofileIMG1{
     float: right;
     width: 490px;
@@ -221,124 +236,19 @@ footer{
     text-align: left;
     margin-bottom: 10px;
 }
-.profileLowertext p{
-    margin-top: 0px;
+.textHome{
+    margin-left: 25px;
+    margin-right: 20%;
+}
+.textHome h3{
     margin-bottom: 0px;
-}
-#profileWorkaround{
-    margin-bottom: -80px;
-}
-.myprofileBody h1{
-    margin-bottom: 35px;
-    font-size: 40px;
-}
-.myprofileBody h3{
-    margin-bottom: 10px;
-}
-.myprofileBody p{
-    margin-top: 0px;
-}
-#myprofileToptext{
-    margin-bottom: 10px;
-}
-
-/* DASHBOARD.HTML */
-table{
-    border: solid 3px black;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-#tableTop{
-    background-color: rgb(118, 137, 223);
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    border: solid 3px black;
-}
-table th{
-    border: solid 2px black;
-    background-color:rgb(163, 177, 255);
-}
-table td{
-    border: solid 2px black;
-    background-color:rgb(242, 246, 255);
-    height: 23px;
-}
-#course, #assessment{
-    padding-right: 10px;
-    padding-left: 10px;
-}
-#grade, #weight, #ecs, #finalgrade{
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-}
-#courseQ3{
-    padding-left: 10px;
-    min-width: 226px; 
-    text-align: center;
-}
-#courseQ4{
-    min-width: 226px;
-    padding-left: 10px;
-    text-align: center;
-}
-#courseOther{
-    padding-left: 10px;
-    max-width: 200px; 
-}
-#assessmentQ2{
-    padding-right: 10px;
-    padding-left: 10px;
-    max-width: 150px;
-}
-#assessmentQ3{
-    padding-right: 10px;
-    padding-left: 10px;
-    min-width: 148px;
-}
-#assessmentQ4{
-    max-width: 148px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#assessmentOther{
-    min-width: 167px;
-    padding-left: 10px;
-}
-.dashboardSummary{
-    background-color: rgba(211, 187, 255, 0.7);
-    border: 3px solid black;
-    margin-left: 0%;
-    text-align: center;
-    height: 394px;
-    margin-bottom: 2%;
-    font-size: 1.5em;
-}
-.dashboardSummary h3{
-    padding-left: 10px;
-    padding-right: 10px;
     margin-top: 40px;
 }
-.container3{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1%;
+.textHome p{
+    margin-top: 10px;
 }
-.container2 h1{
-    margin-top: 13px;
-    margin-bottom: 28px;
-}
-.quarterFour{
-    margin-bottom: 0px;
-}
-.quarterOther{
-    margin-bottom: 0px;
-}
-
-/* BLOG.HTML */
 .blogMain{
     border-bottom: 1px solid black;
-
 }
 .blogMain div{
     margin-bottom: -100%;
@@ -363,19 +273,15 @@ table td{
     margin-top: 0px;
 }
 #blogContent{
-    background-color: rgba(255, 207, 134, 0.425);
+    background-color: rgba(211, 211, 211, 0);
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
-/* INDIVDUAL BLOG PAGES */
-
-/* FAQ.HTML*/
 .faq{
     border: solid 3px black;
     border-bottom: solid 3px black;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.85);
     margin: 2%;
     font-size: 18.72px;
 }
@@ -394,4 +300,30 @@ table td{
 }
 .faq li{
     margin-top: 13px;
+}
+.profileLowertext p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#profileWorkaround{
+    margin-bottom: -80px;
+}
+.myprofileBody h1{
+    margin-bottom: 35px;
+    font-size: 40px;
+}
+.myprofileBody h3{
+    margin-bottom: 10px;
+}
+.myprofileBody p{
+    margin-top: 0px;
+}
+#myprofileToptext{
+    margin-bottom: 10px;
+}
+#titleHome{
+    margin-top: 30px;
+}
+.navbar{
+    font-size: larger;
 }
