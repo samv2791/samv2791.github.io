@@ -418,7 +418,7 @@ table td{
     border: solid 3px black;
     text-align: left
 }
-.blogSubText h3, .blogSubText p{
+.blogSubText h3, .blogSubText p, .blogSubText ul{
     margin: 2%;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -438,14 +438,24 @@ table td{
     font-size: 0.85em;
     text-align: left;
     line-height: 1.4;
+    padding-bottom: 0;
+    padding-top: 0
 }
 .blogSubText a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+.blogSubText ul{
+    padding-left: 5%;
+    border-top: none;
+    border-bottom: none;
+    font-size: 0.85em;
+    padding-top: 1%;
+}
 #blogSubBottom{
     border-bottom: 3px solid black;
     text-align: right;
+    padding-bottom: 2%
 }
 #blogSubDisplay{
     display: flex;
@@ -458,18 +468,25 @@ table td{
 }
 #blogICTfit{
     padding-bottom: 414px;
+    padding-top: 2%;
 }
 #blogFeedbackfit{
     padding-bottom: 414px;
+    padding-top: 2%;
 }
 #blogExperiencefit{
-    padding-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 2%;
 }
 #blogChoicefit{
-    padding-bottom: 414px;
+    padding-bottom: 130px;
+    padding-top: 2%;
 }
 #blogSWOTfit{
-    padding-bottom: 414px;
+    padding-bottom: 60px;
+}
+#blogSWOTtop{
+    padding-top: 2%;
 }
 /* FAQ.HTML*/
 .faq{
