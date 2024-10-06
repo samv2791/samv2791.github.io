@@ -1,7 +1,7 @@
 /* MAIN PAGE LAYOUT */
 body {
     margin: 0px;
-    background-image: url(images/backgroundBody.jpg);
+    background-image: url(../images/backgroundBody.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ main{
     float: right;
     font-family:sans-serif;
     color: black;
-    background-image: url(images/backgroundMain.avif);
+    background-image: url(../images/backgroundMain.avif);
     border: 3px solid black;
     margin-right: 1.5%;
     margin-top: 1.5%;
@@ -455,7 +455,10 @@ table td{
 #blogSubBottom{
     border-bottom: 3px solid black;
     text-align: right;
-    padding-bottom: 2%
+    padding-bottom: 2%;
+}
+#blogSubBottom:hover{
+    color: white;
 }
 #blogSubDisplay{
     display: flex;
