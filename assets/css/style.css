@@ -580,7 +580,9 @@ table td{
 #blogSWOTtop{
     padding-top: 2%;
 }
-
+#blogGoBack:hover{
+    color:rgb(31, 41, 180)
+}
 /* FAQ.HTML*/
 .faq{
     border: solid 3px black;
