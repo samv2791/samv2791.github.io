@@ -395,6 +395,15 @@ table td{
     margin-bottom: 0px;
 }
 
+.finalGradePassed {
+    color: green;
+    font-style: italic;
+}
+
+.finalGradeFailed {
+    color: red;
+    font-style: italic;
+}
 /* BLOG.HTML */
 .blogMain{
     background-color: rgb(111, 131, 219);
